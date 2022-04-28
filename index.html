@@ -22,11 +22,11 @@
 <body>
     <div class="header">
         <h2 class="title-font">In A Mood?</h2>
-        <ul>
-            <li><button class="happy-btn mid-font">Happy</button></li>
-            <li><button class="down-btn mid-font">Down</button></li>
-            <li><button class="inspired-btn mid-font">Inspired</button></li>
-            <li><button class="curious-btn mid-font">Curious</button></li>
+        <ul class="">
+            <li><button class="happy-btn mood-btn mid-font">Happy</button></li>
+            <li><button class="down-btn mood-btn mid-font">Down</button></li>
+            <li><button class="inspired-btn mood-btn mid-font">Inspired</button></li>
+            <li><button class="curious-btn mood-btn mid-font">Curious</button></li>
         </ul>
     </div>
     <div class="main-container">
@@ -37,72 +37,94 @@
             <p>By clicking the button in the according section, you will generate a new quote at random.</p>
         </section>
         <div class="loader"></div>
-        <h1 class="title-font">And today's quote of the day is ~ <span class="q-o-d mid-font"><i>"Pain can only be understood by people who have shared the same pain" - Yahiko from Naruto Shippuden</i></span></h1>
-        <section>
-            <h3 class="title-font">Kanye West</h3>
-            <div class="kanye-quote-div grid-set">
-                <div class="image-default-set">
-                    <img class="image-set" src="./src/img/kanye-west-api-img.jpg" alt="practice image">
-                </div>
-                <div class="grid-set-inner">
-                    <div class="jkshkil">
-                        <p class="quote-holder-kanye quote-set">"I am the number one most impactful artist of our generation, in the flesh. I am Shakespeare, Walt Disney." - Kanye West</p>
+        <h1 class="title-font t-quote">And today's quote of the day is ~ <span class="q-o-d mid-font"><i>"Pain can only be understood by people who have shared the same pain" - Yahiko from Naruto Shippuden</i></span></h1>
+        <div class="quote-ui">
+            <section>
+                <h3 class="title-font">Kanye West</h3>
+                <div class="kanye-quote-div grid-set">
+                    <div class="image-default-set">
+                        <img class="image-set" src="./src/img/kanye-west-api-img.jpg" alt="practice image">
                     </div>
-                    <div class="mid-font">
-                        <p>Kanye West has always had an inspiration on me. The biggest reason, he is him-self, meaning he does what he wabnts regardless of others opinions. He has made it out of poverty and is doing his best to support people who want to be helped.</p>
+                    <div class="grid-set-inner">
+                        <div class="jkshkil">
+                            <p class="quote-holder-kanye quote-set">"I am the number one most impactful artist of our generation, in the flesh. I am Shakespeare, Walt Disney." - Kanye West</p>
+                        </div>
+                        <div class="mid-font">
+                            <p>Kanye West has always had an inspiration on me. The biggest reason, he is him-self, meaning he does what he wabnts regardless of others opinions. He has made it out of poverty and is doing his best to support people who want to be helped.</p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <button class="clickedKanye btn">Kanye Quote</button>
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section>
-            <h3 class="title-font">Anime</h3>
-            <div class="anime-quote-div grid-set">
-                <div class="image-default-set">
-                    <img class="image-set" src="./src/img/erwin-smith-quote.jpg" alt="practice image">
-                </div>
-                <div class="grid-set-inner">
-                    <div class="jkshkil">
-                        <p class="quote-holder-anime quote-set">"I will be hokage, everyone will ahve to stop disrespecting me and look up to me. Believe it!!" - Naruto Uzumaki</p>
-                    </div>
-                    <div class="mid-font">
-                        <p>Anime has alwasy been there for me, whne times where dark and lonely. Growing up alone and in foster homes, anime is what ekp me up. In foster homes no one spoke to me, I felkt like i was a in a asylum, but with anime i felt like whole again.</p>
+                    <div>
+                        <button class="clickedKanye btn">Kanye Quote</button>
                     </div>
                 </div>
-                <div>
-                    <button class="clickedAnime btn">Anime Quote</button>
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section>
-            <h3 class="title-font">Wisdom and Inspirational</h3>
-            <div class="wise-quote-div grid-set">
-                <div class="image-default-set">
-                    <img class="image-set" src="./src/img/elon-musk-quote.jpg" alt="practice image">
-                </div>
-                <div class="grid-set-inner">
-                    <div class="jkshkil">
-                        <p class="quote-holder-wise quote-set">“It's OK to have your eggs in one basket as long as you control what happens to that basket.” - Elon Musk</p>
+            </section>
+            <hr>
+            <section>
+                <h3 class="title-font">Anime</h3>
+                <div class="anime-quote-div grid-set">
+                    <div class="image-default-set">
+                        <img class="image-set" src="./src/img/erwin-smith-quote.jpg" alt="practice image">
                     </div>
-                    <div class="mid-font">
-                        <p>At the end of the day we have to rememeber that we are human and we are bound to make mistakes, nothing is perfect. Even the greatest people struggle, Connor Mcgregor once said "I am no prodiogy, I am just obsessed"</p>
+                    <div class="grid-set-inner">
+                        <div class="jkshkil">
+                            <p class="quote-holder-anime quote-set">"I will be hokage, everyone will ahve to stop disrespecting me and look up to me. Believe it!!" - Naruto Uzumaki</p>
+                        </div>
+                        <div class="mid-font">
+                            <p>Anime has alwasy been there for me, whne times where dark and lonely. Growing up alone and in foster homes, anime is what ekp me up. In foster homes no one spoke to me, I felkt like i was a in a asylum, but with anime i felt like whole again.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="clickedAnime btn">Anime Quote</button>
                     </div>
                 </div>
-                <div>
-                    <button class="clickedWise btn">Inspirational Quote</button>
+            </section>
+            <hr>
+            <section>
+                <h3 class="title-font">Wisdom and Inspirational</h3>
+                <div class="wise-quote-div grid-set">
+                    <div class="image-default-set">
+                        <img class="image-set" src="./src/img/elon-musk-quote.jpg" alt="practice image">
+                    </div>
+                    <div class="grid-set-inner">
+                        <div class="jkshkil">
+                            <p class="quote-holder-wise quote-set">“It's OK to have your eggs in one basket as long as you control what happens to that basket.” - Elon Musk</p>
+                        </div>
+                        <div class="mid-font">
+                            <p>At the end of the day we have to rememeber that we are human and we are bound to make mistakes, nothing is perfect. Even the greatest people struggle, Connor Mcgregor once said "I am no prodiogy, I am just obsessed"</p>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="clickedWise btn">Inspirational Quote</button>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+            <hr>
+            <section>
+                <h3 class="title-font">Testing Section</h3>
+                <div class="test-quote-div grid-set">
+                    <div class="image-default-set">
+                        <img class="image-set" src="./src/img/elon-musk-quote.jpg" alt="practice image">
+                    </div>
+                    <div class="grid-set-inner">
+                        <div class="jkshkil">
+                            <p class="quote-holder-curious quote-set">TEST TEST“It's OK to have your eggs in one basket as long as you control what happens to that basket.” - Elon Musk</p>
+                        </div>
+                        <div class="mid-font">
+                            <p> TEST TEST At the end of the day we have to rememeber that we are human and we are bound to make mistakes, nothing is perfect. Even the greatest people struggle, Connor McGregor once said "I am no prodiogy, I am just obsessed"</p>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="clickedCurious btn">Curious</button>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
     <footer class="title-font">
         <p class="sig">Constructed By Juan Orantes</p>
         <br>
         <p><i>still under construction</i>👷🏽🚧</p>
     </footer>
-    <script src='src/js/main.js'></script>
+    <script type="module" src='src/js/main.js'></script>
 </body>
 </html
