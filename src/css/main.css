@@ -10,7 +10,6 @@ html{
     --curious-color:#ffc107;
     --text-color-b:black;
     --text-color-w:white;
-
 }
 /* BACKGROUND IMAGES */
 
@@ -84,7 +83,6 @@ body{
     display: grid;
     grid-template-rows: 50% 50%;
 }
-
 .quote-set{
     font-family: 'Poppins', sans-serif;
     font-family: 'Share Tech Mono', monospace;
