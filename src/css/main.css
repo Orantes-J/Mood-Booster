@@ -1,0 +1,234 @@
+/* HTML SETTINGS */
+html{
+    height: 100%;
+}
+/* VARIABLES */
+:root{
+    --happy-color: #007bff;
+    --down-color: #5a6268;
+    --inspired-color: #138496;
+    --curious-color:#ffc107;
+    --text-color-b:black;
+    --text-color-w:white;
+
+}
+/* BACKGROUND IMAGES */
+
+/* HAPPY */
+.h-mood{
+    background-image: url('/src/img/happy-btn-bgimage.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    color: var(--text-color);
+}
+.d-mood{
+    background-image: url('/src/img/down-btn-bgimage.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    color: var(--text-color);
+}
+.i-mood{
+    background-image: url('/src/img/inspired-btn-bgimage.png');
+    background-repeat: repeat;
+    background-size: cover;
+    color: var(--text-color);
+}
+.c-mood{
+    background-image: url('/src/img/curious-btn-bgimage.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    color: var(--text-color);
+}
+
+/* RESPONSIVENESS */
+@media (min-width: 320px){
+    .image-set{
+        opacity: .5;
+    }
+    .mid-font{
+        height: 50%;
+        font-size: small;
+    }
+    .quote-ui section{
+        height: 300px;
+    }
+    .image-set{
+        height: 55%;
+        width: 100%;
+    }
+    .jkshkil{
+        height: 100px;
+    }
+    .bnedur{
+        display: none;
+    }
+    .grid-set{
+        grid-column-gap: 1pc;
+    }
+    section{
+        margin: 1pc;
+    }
+}
+
+/* @media (min-width: 500px){
+    .mid-font{
+        height: 50%;
+    }
+} */
+
+@media (min-width: 769px){
+    .mid-font{
+        height: 75%;
+        font-size: medium;
+    }
+    .image-set{
+        height: 70%;
+        width: 85%;
+        border-radius: 5%;
+    }
+}
+
+@media (min-width: 1200px){
+    .header button{
+        padding: 5px;
+    }
+    .mid-font{
+        height: 100%;
+        font-size: initial;
+    }
+    .bnedur{
+        display: block;
+        font-size: initial;
+    }
+    .image-set{
+        height: 100%;
+        width: 90%;
+        opacity: .5;
+        border-radius: 5%;
+    }
+    .grid-set{
+        display: grid;
+        align-items: center;
+    }
+    section{
+        margin: 5pc;
+    }
+}
+
+/* FONT SETTINGS */
+.title-font{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+}
+.mid-font{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+/* GENERAL SETTING */
+body{
+    padding: 1pc;
+    background-color: #131516;
+}
+.image-default-set{
+    height: 325px;
+}
+.t-quote{
+    margin-bottom: 3pc;
+}
+.jkshkil{
+    display: flex;
+    align-items: center;
+}
+.grid-set{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.grid-set-inner{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.quote-set{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    max-height: 100%;
+    text-align: center;
+    margin: 0;
+    overflow: auto;
+    color: white;
+}
+.btn{
+    margin: 0 35%;
+    border-radius: 1pc;
+}
+.backdrop-filter{
+    width: 35%;
+    backdrop-filter: blur(15px);
+    position: relative;
+    bottom: 5pc;
+    height: 22%;
+    margin: 0;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(50, 45, 45); 
+    border-radius: 10px;
+}
+/* NAV SETTINGS */
+.header{
+    display: flex;
+}
+.header ul{
+    display: flex;
+}
+.header li{
+    margin-left: 4pc;
+    list-style: none;
+}
+.header button{
+    border-radius: 5pc;
+    color: white;
+}
+
+/* EMOTION BUTTON SETTINGS */
+.happy-btn{
+    background-color: var(--happy-color);
+    border-color: var(--happy-color);
+}
+.down-btn{
+    background-color: var(--down-color);
+    border-color: var(--down-color);
+}
+.inspired-btn{
+    background-color: var(--inspired-color);
+    border-color: var(--inspired-color);
+}
+.curious-btn{
+    background-color: var(--curious-color);
+    border-color: var(--curious-color);
+}
+
+/* QUOTE OF THE DAY SETTINGS */
+.q-o-d{
+    font-size: initial;
+}
+
+/* SELECTORS */
+h3{
+    text-align: center;
+}
+
+/* FOOTER */ 
+footer{
+    margin: 3pc;
+}
+footer p{
+    text-align: center;
+}
+.sig::after{
+    content: " 🤖";
+}
