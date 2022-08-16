@@ -156,8 +156,8 @@ body{
 }
 
 .quote-set{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Share Tech Mono', monospace;
+/*     font-family: 'Poppins', sans-serif;
+    font-family: 'Share Tech Mono', monospace; */
     max-height: 100%;
     text-align: center;
     margin: 0;
