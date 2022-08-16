@@ -121,6 +121,9 @@ html{
 .NewNormalFont{
     font-weight: Normal;
 }
+.NameNormalFont{
+    font-weight: Normal;
+}
 /* FONT SETTINGS */
 .title-font{
     font-family: 'Poppins', sans-serif;
