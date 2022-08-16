@@ -119,6 +119,7 @@ html{
 .title-font{
     font-family: 'Poppins', sans-serif;
     font-family: 'Share Tech Mono', monospace;
+    font-size: 2pc;
     color: white;
 }
 .mid-font{
@@ -181,6 +182,7 @@ body{
 /* NAV SETTINGS */
 .header{
     display: flex;
+    justify-content: center;
 }
 .header ul{
     display: flex;
