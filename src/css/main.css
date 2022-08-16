@@ -127,6 +127,9 @@ html{
     font-family: 'Raleway', sans-serif;
     color: white;
 }
+.low-font{
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
 /* GENERAL SETTING */
 body{
     padding: 1pc;
