@@ -118,6 +118,9 @@ html{
     font-size: 1.5pc;
     color: white;
 }
+.NewNormalFont{
+    font-weight: Normal;
+}
 /* FONT SETTINGS */
 .title-font{
     font-family: 'Poppins', sans-serif;
