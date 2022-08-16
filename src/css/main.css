@@ -114,7 +114,9 @@ html{
         margin: 5pc;
     }
 }
-
+.FontEdit{
+    font-size: 1.5pc;
+}
 /* FONT SETTINGS */
 .title-font{
     font-family: 'Poppins', sans-serif;
