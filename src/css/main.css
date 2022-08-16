@@ -247,3 +247,11 @@ footer{
 footer p{
     text-align: center;
 }
+.sect-p1{
+    margin: 5pc 30pc 5pc 30pc;
+}
+.sect-p1 p{
+    font-size: 22px;
+    text-align: center;
+    line-height: 2pc;
+}
