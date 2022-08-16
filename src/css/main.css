@@ -119,6 +119,8 @@ html{
     color: white;
 }
 .NewNormalFont{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
     font-weight: Normal;
 }
 .NameNormalFont{
