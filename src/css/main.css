@@ -117,10 +117,10 @@ html{
 .FontEdit{
     font-size: 1.5pc;
     color: white;
+    font-family: 'Share Tech Mono',monospace;
 }
 .NewNormalFont{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: Normal;
 }
 .NameNormalFont{
