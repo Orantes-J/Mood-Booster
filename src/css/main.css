@@ -258,3 +258,7 @@ footer p{
 .QuoteFontSize{
     font-size: 22px;
 }
+.AnimeImageSize{
+    height: 105%;
+    width: 58%;
+}
