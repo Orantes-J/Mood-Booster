@@ -239,6 +239,3 @@ footer{
 footer p{
     text-align: center;
 }
-.sig::after{
-    content: " 🤖";
-}
