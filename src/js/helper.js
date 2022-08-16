@@ -84,7 +84,7 @@ export const generateMarkupI = function(){
             </div>
         </div>
         <div>
-            <button class="clickedI1 btn">test Quote</button>
+            <button class="clickedI1 btn">Uplifting Quote</button>
         </div>
     </div>
     </section>
