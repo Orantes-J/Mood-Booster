@@ -7,9 +7,10 @@ html{
     --happy-color: #293462;
     --down-color: #423F3E;
     --inspired-color: #187498;
-    --curious-color:#F76E11;
+    --curious-color:#B85C38;
     --text-color-b:black;
     --text-color-w:white;
+    --mission-color: 
 
 }
 /* BACKGROUND IMAGES */
@@ -137,6 +138,7 @@ html{
     font-family: 'Poppins', sans-serif;
     font-family: 'Raleway', sans-serif;
     color: white;
+    font-weight: 700;
 }
 .low-font{
     font-family: 'Alegreya Sans SC', sans-serif;
@@ -163,7 +165,10 @@ body{
 }
 .grid-set-inner{
     display: grid;
-    grid-template-rows: 50% 50%;
+    position: relative;
+    top: 2pc;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: white;
 }
 
 .quote-set{
@@ -229,6 +234,10 @@ body{
     background-color: var(--curious-color);
     border-color: var(--curious-color);
 }
+.mission-btn{
+    background-color: var(--mission-color);
+    border-color: var(--mission-color);
+}
 
 /* QUOTE OF THE DAY SETTINGS */
 .q-o-d{
@@ -261,4 +270,27 @@ footer p{
 .AnimeImageSize{
     height: 89%;
     width: 52%;
+}
+.WestNewPlace{
+    position: absolute;
+    left: 39pc;
+    top: 49pc;
+}
+.AnimeNewPlace{
+    position: absolute;
+    left: 42pc;
+    top:73pc;
+}
+.WisdomNewPlace{
+    position: absolute;
+    left: 33pc;
+    top: 97pc;
+}
+.CloserNewPost{
+    line-height: 0px;
+    margin: 0px;
+    font-size: 14px;
+}
+.hide-object{
+    display: none;
 }
