@@ -69,7 +69,7 @@ moodBtns.forEach((btn) => {
 
         if(!btn.textContent) return;
 
-        if (btn.textContent == 'Happy'){
+        if (btn.textContent == 'Up In The Clouds'){
             // htmlBody.classList.add('h-mood'); <- THIS IS ADDS BACKGROUND IMAGE
             help.clearUi();
             help.generateMarkupH();
@@ -78,7 +78,7 @@ moodBtns.forEach((btn) => {
             help.addEventHTwo();
         };
 
-        if(btn.textContent == 'Down'){
+        if(btn.textContent == 'Down In The Dumps'){
             // htmlBody.classList.add('d-mood'); <- THIS IS ADDS BACKGROUND IMAGE 
             help.clearUi();
             help.generateMarkupD();
@@ -87,7 +87,7 @@ moodBtns.forEach((btn) => {
             help.addEventDTwo();
         }
 
-        if(btn.textContent == 'Inspired'){
+        if(btn.textContent == 'Inspired To Create'){
             // htmlBody.classList.add('i-mood'); <- THIS IS ADDS BACKGROUND IMAGE 
             help.clearUi();
             help.generateMarkupI();
@@ -96,7 +96,7 @@ moodBtns.forEach((btn) => {
             help.addEventITwo();
         }
 
-        if(btn.textContent == 'Curious'){
+        if(btn.textContent == 'Thirst For Knowledge'){
             // htmlBody.classList.add('c-mood'); <- THIS IS ADDS BACKGROUND IMAGE 
             help.clearUi();
             help.generateMarkupC();
