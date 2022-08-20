@@ -66,11 +66,14 @@ const classNames = ['h-mood', 'i-mood', 'c-mood', 'd-mood'];
 moodBtns.forEach((btn) => {
 
     btn.addEventListener('click', function(){
+        console.log('Heard a click');
 
         if(!btn.textContent) return;
 
         if (btn.textContent == 'Up In The Clouds'){
+            console.log('Heard a click 1');
             // htmlBody.classList.add('h-mood'); <- THIS IS ADDS BACKGROUND IMAGE
+            help.clearEntire();
             help.clearUi();
             help.generateMarkupH();
             document.querySelectorAll('.quote').forEach(d => d.classList.add('bnedur'))
@@ -79,7 +82,9 @@ moodBtns.forEach((btn) => {
         };
 
         if(btn.textContent == 'Down In The Dumps'){
-            // htmlBody.classList.add('d-mood'); <- THIS IS ADDS BACKGROUND IMAGE 
+            console.log('Heard a click 2');
+            // htmlBody.classList.add('d-mood'); <- THIS IS ADDS BACKGROUND IMAGE
+            help.clearEntire(); 
             help.clearUi();
             help.generateMarkupD();
             document.querySelectorAll('.quote').forEach(d => d.classList.add('bnedur'))
@@ -89,6 +94,7 @@ moodBtns.forEach((btn) => {
 
         if(btn.textContent == 'Inspired To Create'){
             // htmlBody.classList.add('i-mood'); <- THIS IS ADDS BACKGROUND IMAGE 
+            help.clearEntire();
             help.clearUi();
             help.generateMarkupI();
             document.querySelectorAll('.quote').forEach(d => d.classList.add('bnedur'))
@@ -97,6 +103,8 @@ moodBtns.forEach((btn) => {
         }
 
         if(btn.textContent == 'Thirst For Knowledge'){
+            console.log('Heard a click 3');
+            help.clearEntire();
             // htmlBody.classList.add('c-mood'); <- THIS IS ADDS BACKGROUND IMAGE 
             help.clearUi();
             help.generateMarkupC();
@@ -106,5 +114,8 @@ moodBtns.forEach((btn) => {
         }
     });
 });
+
+// hide main ui
+
 
 // NOTES -> INNER HTML DOES NOT ATTACH EVENT LISTENER BUT WE CAN ALWAYS ADD THE EVENT VIA QUERY SELECTOR && GUARD CLAUSE
