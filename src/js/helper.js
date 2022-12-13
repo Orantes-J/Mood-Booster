@@ -67,7 +67,7 @@ export const generateMarkupI = function(){
     `
     <div class="sect-wrapper">
     <div class="title-container">
-        <h2 class="mid-font">Lets get some quotes to inpsire you!</h2>
+        <h2 class="low-font">Lets get some quotes to inpsire you!</h2>
     </div>
     </div>
     <section>
