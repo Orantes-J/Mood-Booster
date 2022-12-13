@@ -197,7 +197,7 @@ export const generateMarkupH = function(){
                 <p class="quote-holder-h2 quote-set">"A calm and modest life brings more happiness than the pursuit of success combined with constant restlessness." - Albert Einstein</p>
             </div>
             <div class="low-font">
-                <p class="quote">It takes the same amnount of effort to be happy as it is to be upset.</p>
+                <p class="quote">It takes the same amount of effort to be happy as it is to be upset.</p>
             </div>
         </div>
         <div>
